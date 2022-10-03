@@ -63,7 +63,7 @@ nav{
 ul{
     display: flex;
     justify-content: space-between;
-    width:90%;
+    width:80%;
     margin:auto;
     padding-top:10px;
     padding-bottom:10px;
@@ -149,6 +149,39 @@ ul li{
 @media only screen and (min-width: 424px)  {
     .img-1{
         margin-left:45px;
+}
+}
+
+@media only screen and (min-width: 768px)  {
+    .img-1{
+        width: 60%;
+        display: block;
+        margin: auto 32%;
+}
+}
+
+
+@media only screen and (min-width: 1024px)  {
+    .img-1{
+        width: 60%;
+        display: block;
+        margin: auto 37%;
+}
+}
+
+@media only screen and (min-width: 1440px)  {
+    .img-1{
+        width: 60%;
+        display: block;
+        margin: auto 40.5%;
+}
+}
+
+@media only screen and (min-width: 2560px)  {
+    .img-1{
+        width: 60%;
+        display: block;
+        margin: auto 45%;
 }
 }
 /* fine media */
