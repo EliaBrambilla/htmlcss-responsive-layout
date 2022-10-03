@@ -142,7 +142,50 @@ ul li{
     padding-bottom:20px;
     
 }
+/* inizio seconda sezione */
+section{
+    background-color: #9792e4;
+    margin-top:30px;
+}
+section img{
+    width:90vw;
+    margin-top:30px;
+    width:95%;
+    margin-left:8px;
+}
+section h2{
+    color:white;
+    width:95%;
+    margin:auto;
+    margin-top:20px;
+}
+section p{
+    width:95%;
+    margin:auto;
+    color:white;
+    margin-top:20px;
+}
 
+.cc-card{
+    background-color: white;
+    border-radius: 50px;
+    width:90%;
+    margin-left:15px;
+    margin-top:30px;
+    text-align: center;
+}
+.cc-card p{
+    color: black;
+}
+
+.fa-arrow-down-long{
+    background-color: #9792e4;
+    border-radius: 50px;
+    font-size: 2rem;
+    padding: 10px 10px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
 /* media 374px */
 @media only screen and (min-width: 374px)  {
 .img-1{
