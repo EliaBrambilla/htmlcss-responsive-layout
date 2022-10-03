@@ -57,7 +57,7 @@ ol {
 
 /* header */
 nav{
-    background-color: var(--bluechill);
+    background-color:#0084fd;
 }
 
 ul{
@@ -80,3 +80,74 @@ ul li{
 }
 
 /* fine header */
+/* inizio main primo container */
+.container-main{
+    width:80%;
+    margin: auto;
+}
+
+.card-blue{
+    background-color: #b5ddff;
+    border-radius: 20px;
+    margin-top:2.0rem;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    color: var(--black);
+    text-align: center;
+}
+
+.card-blue h1{
+    color:#0184fd;
+}
+.card-blue .tal{
+    text-align: left;
+    color:grey;
+    margin-top:1.1rem;
+}
+
+.btn-1{
+    background-color: #0084fd;
+    padding:10px 70px;
+    border-radius: 20px;
+    color: var(--white);
+    text-align: center;
+    margin-top:30px;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+}
+
+.img-1{
+    background-image: url('../img/phone.png');
+    width:100%;
+    height: 240px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top:1.4rem;
+}
+/* fine main primo container */
+/* main secondo container */
+.card-blue span{
+    color:#0084fd;
+    font-size: 5rem;
+}
+
+.card-blue p{
+    text-align: center;
+    padding-bottom:20px;
+    
+}
+
+/* media */
+@media only screen and (min-width: 374px)  {
+.img-1{
+    margin-left:22px;
+}
+}
+
+@media only screen and (min-width: 424px)  {
+    .img-1{
+        margin-left:50px;
+}
+}
+/* fine media */
