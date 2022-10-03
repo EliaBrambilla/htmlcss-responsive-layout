@@ -164,9 +164,32 @@ ul li{
 @media only screen and (min-width: 1024px)  {
     .img-1{
         width: 60%;
-        display: block;
-        margin: auto 37%;
+        float: left;
+        margin-left:320px;
+        margin-top: -220px;
 }
+.container-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    float: left;
+}
+
+.card-blue{
+    flex-basis: calc(100% / 2);
+}
+
+.card-long{
+    flex-basis:60%;
+    margin:auto;
+}
+.card-short{
+    flex-basis: calc(100% / 3);
+    margin:auto;
+}
+
 }
 
 @media only screen and (min-width: 1440px)  {
@@ -183,5 +206,6 @@ ul li{
         display: block;
         margin: auto 45%;
 }
+
 }
 /* fine media */
