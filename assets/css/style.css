@@ -55,4 +55,28 @@ ol {
 
 /* by Brambilla Elia */
 
-/* css start */
+/* header */
+nav{
+    background-color: var(--bluechill);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+ul li{
+    display: inline-block;
+    color: var(--white);
+    margin-top:15px;
+}
+
+.fa-bars{
+    font-size:1.8rem;
+}
+
+/* fine header */
