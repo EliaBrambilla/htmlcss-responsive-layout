@@ -1,0 +1,58 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* reset html */
+html {
+	color: #000;
+	background: #FFF;
+}
+
+/* body reset default */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+
+  /* reset font */
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+/* rimuove list styles su ul, ol */
+ul,
+ol {
+  list-style: none;
+}
+
+/* colori */
+:root{
+    --bluehard:#2a5bff;
+    --bluechill: #1e90ff;
+    --white:#ffffff;
+    --whitedark:#dfdfdf;
+    --redfluo:#ff3636;
+    --redlow:#d92121;
+    --yellowchill:#f0ef59;
+    --yellowfluo:#fffe6c;
+    --violetchill:#b735db;
+    --violetlight:#dd84f6;
+    --greenfluo:#32ee4f;
+    --greenlow:#01a319;
+    --greylight:#c6c6c6;
+    --greydark:#9d9d9d;
+    --blacksoft:#535252;
+    --black:#000000;
+}
+
+
+/* by Brambilla Elia */
+
+/* css start */
