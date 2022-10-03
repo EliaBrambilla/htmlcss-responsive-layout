@@ -173,7 +173,7 @@ section p{
     background-color: white;
     border-radius: 50px;
     width:90%;
-    margin-left:15px;
+    margin-left:16px;
     margin-top:30px;
     text-align: center;
 }
@@ -231,7 +231,7 @@ section p{
 }
 .col2{
     flex-basis: 50%;
-    margin-left:10px;
+    margin-left:5px;
 }
 
 .card-long h1{
@@ -249,7 +249,7 @@ section p{
 .card-short{
     flex-basis: calc(100% / 3);
     display: block;
-    padding:34px;
+    padding:40px;
     margin: auto;
 }  
 .card-short2{
@@ -265,7 +265,7 @@ section p{
     display: inline;
 }
 .card-short h1, .card-short2 h1{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 .card-short p, .card-short2 p{
     font-size:0.9rem;
