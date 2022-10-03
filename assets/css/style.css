@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    
 }
 /* reset html */
 html {
@@ -112,10 +115,11 @@ ul li{
     padding:10px 70px;
     border-radius: 20px;
     color: var(--white);
-    text-align: center;
+    text-align:center ;
     margin-top:30px;
     letter-spacing: 0.1rem;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    font-weight: bold;
 }
 
 .img-1{
@@ -139,73 +143,221 @@ ul li{
     
 }
 
-/* media */
+/* media 374px */
 @media only screen and (min-width: 374px)  {
 .img-1{
     margin-left:22px;
 }
 }
-
+/* media 424px */
 @media only screen and (min-width: 424px)  {
     .img-1{
         margin-left:45px;
 }
 }
-
+/* media 768px */
 @media only screen and (min-width: 768px)  {
     .img-1{
-        width: 60%;
+        width: 100%;
         display: block;
-        margin: auto 32%;
-}
-}
-
-
-@media only screen and (min-width: 1024px)  {
-    .img-1{
-        width: 60%;
-        float: left;
-        margin-left:320px;
-        margin-top: -220px;
+        margin: auto;
 }
 .container-main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-p{
-    float: left;
+    margin-top:20px;
 }
 
 .card-blue{
-    flex-basis: calc(100% / 2);
+    flex-basis: calc(100% / 3);
+    height: 100%; 
 }
 
 .card-long{
-    flex-basis:60%;
+    flex-basis:65%;
     margin:auto;
+    height: 65vh;
+}
+.col1{
+    flex-basis: 50%;
+}
+.col2{
+    flex-basis: 50%;
+    margin-left:10px;
+}
+
+.card-long h1{
+    text-align: left;
+}
+.card-long p{
+    max-width: 100%;
+    padding-top:20px;
+}
+.card-long button{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom:13px;
 }
 .card-short{
     flex-basis: calc(100% / 3);
+    display: block;
+    padding:34px;
+    margin: auto;
+}  
+.card-short2{
+    flex-basis: calc(100% / 3 - 30px);
+    display: block;
+    padding:20px;
+    margin:auto;
+    margin-top:25px;
+    justify-content: space-around;
+    height: 550px;
+} 
+.card-short p{
+    display: inline;
+}
+.card-short h1, .card-short2 h1{
+    font-size: 1.7rem;
+}
+.card-short p, .card-short2 p{
+    font-size:0.9rem;
+    margin-top:20px;
+}
+
+
+}
+
+/* media 1024px */
+@media only screen and (min-width: 1024px)  {
+.img-1{
+        width: 100%;
+        margin:0;
+}
+.container-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+
+.card-blue{
+    flex-basis: calc(100% / 3);
+    height: 100%;
+    display: flex;
+}
+
+.card-long{
+    flex-basis:65%;
     margin:auto;
 }
-
+.col1{
+    flex-basis: 50%;
+}
+.col2{
+    flex-basis: 50%;
+    margin-top:215px;
+    margin-bottom:0;
+    height: 100%;
 }
 
+.card-long h1{
+    text-align: left;
+    font-size: 1.4rem;
+}
+.card-long p{
+    max-width: 100%;
+    padding-top:20px;
+}
+.card-long button{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom:50px;
+}
+.card-short{
+    flex-basis: calc(100% / 3 - 50px);
+    display: block;
+    padding:27px;
+    margin:22px;
+}
+.card-short2{
+    flex-basis: calc(100% / 3 - 30px);
+    display: block;
+    padding:20px;
+    margin:auto;
+    margin-top:20px;
+    justify-content: space-around;
+    height: 500px;
+} 
+.card-short h1, .card-short2 h1{
+    font-size: 1.7rem;
+}
+.card-short p, .card-short2 p{
+    font-size:0.9rem;
+}
+
+}
+/* media 1440 */
 @media only screen and (min-width: 1440px)  {
-    .img-1{
-        width: 60%;
-        display: block;
-        margin: auto 40.5%;
+.img-1{
+    width: 60%;
+    display: block;
+    margin: auto 40.5%;
 }
-}
-
-@media only screen and (min-width: 2560px)  {
-    .img-1{
-        width: 60%;
-        display: block;
-        margin: auto 45%;
+.container-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:20px;
 }
 
+.card-blue{
+    flex-basis: calc(100% / 3);
+    height: 100%;
+    display: flex;
+}
+
+.card-long{
+    flex-basis:65%;
+    margin:auto;
+}
+.col1{
+    flex-basis: 50%;
+}
+.col2{
+    flex-basis: 50%;
+    margin-top:150px;
+    margin-bottom:0;
+}
+
+.card-long h1{
+    text-align: left;
+    font-size: 1.9rem;
+    margin-top:10px;
+}
+.card-long p{
+    max-width: 100%;
+    padding-top:20px;
+}
+.card-long button{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom:50px;
+}
+.card-short{
+    flex-basis: calc(100% / 3 - 50px);
+    display: block;
+    padding:40px;
+    margin:24px;
+}
+.card-short2{
+    flex-basis: calc(100% / 3 - 30px);
+    display: block;
+    padding:20px;
+    margin:auto;
+    margin-top:20px;
+    justify-content: space-around;
+    height: 370px;
+} 
 }
 /* fine media */
