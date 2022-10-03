@@ -104,6 +104,7 @@ ul li{
     text-align: left;
     color:grey;
     margin-top:1.1rem;
+    margin-left:12px;
 }
 
 .btn-1{
@@ -147,7 +148,7 @@ ul li{
 
 @media only screen and (min-width: 424px)  {
     .img-1{
-        margin-left:50px;
+        margin-left:45px;
 }
 }
 /* fine media */
