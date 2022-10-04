@@ -199,11 +199,17 @@ section p{
 .img-1{
     margin-left:22px;
 }
+.nav-2{
+    display: none;
+}
 }
 /* media 424px */
 @media only screen and (min-width: 424px)  {
 .img-1{
     margin-left:45px;
+}
+.nav-2{
+    display: none;
 }
 }
 /* media 768px */
@@ -261,11 +267,11 @@ section p{
 .card-short2{
     flex-basis: calc(100% / 3 - 35px);
     display: block;
-    padding:35px;
+    padding:30px;
     margin-top:35px;
     margin:10px;
-    justify-content: space-around;
-    height: 650px;
+    justify-content: space-between;
+    height: 600px;
 } 
 .card-short p{
     display: inline;
@@ -294,6 +300,9 @@ section p{
     padding:10px 10px;
     border-radius: 25px;
     margin-top:-10px;
+}
+.nav-2{
+    display: none;
 }
 
 
@@ -381,11 +390,13 @@ section p{
 .nav-2 div{
     color:white;
     margin:20px;
+    cursor: pointer;
 }
 .nav-2 button{
     padding:10px 10px;
     border-radius: 25px;
     margin-top:-10px;
+    cursor: pointer;
 }
 /* sezione 1 */
 
@@ -459,6 +470,17 @@ section p{
 .cc-card{
     margin-left:70px;
     margin-top:30px;
+}
+.nav-2 div{
+    color:white;
+    margin:20px;
+    cursor: pointer;
+}
+.nav-2 button{
+    padding:10px 10px;
+    border-radius: 25px;
+    margin-top:-10px;
+    cursor: pointer;
 }
 }
 /* fine media */
