@@ -56,6 +56,8 @@ ol {
 }
 
 
+
+
 /* by Brambilla Elia */
 
 /* header */
@@ -147,53 +149,27 @@ ul li{
 /* inizio seconda sezione */
 section{
     background-color: #9792e4;
-    margin-top:30px;
-}
-section img{
-    width:90vw;
-    margin-top:30px;
-    width:95%;
-    margin-left:8px;
-}
-section h2{
-    color:white;
-    width:95%;
+    width: 100%;
     margin:auto;
-    margin-top:20px;
-    font-size: 2rem;
+    margin-top:40px;
 }
-section p{
-    width:95%;
-    margin:auto;
+.pic img{
+    width: 100%;
+}
+.text p{
     color:white;
-    margin-top:20px;
-}
-
-.cc-card{
-    background-color: white;
-    border-radius: 50px;
-    width:90%;
-    margin-left:16px;
-    margin-top:30px;
     text-align: center;
 }
-.cc-card p{
-    color: black;
-}
 
-.fa-arrow-down-long{
-    background-color: #9792e4;
-    border-radius: 50px;
-    font-size: 1.5rem;
-    padding: 10px 15px;
+.col-right{
+    background-color: white;
+    border-radius: 20px;
+    padding:20px;
     margin-top:20px;
-    margin-bottom:20px;
-    cursor: pointer;
 }
 
-.nav-2{
-    display: none;
-}
+
+
 /* media 374px */
 @media only screen and (min-width: 374px)  {
 .img-1{
@@ -399,7 +375,14 @@ section p{
     cursor: pointer;
 }
 /* sezione 1 */
-
+section{
+    display: flex;
+    flex-basis:30%;
+}
+.cc-card{
+    display: flex;
+    flex-basis:30%;
+}
 
 }
 /* media 1440 */
