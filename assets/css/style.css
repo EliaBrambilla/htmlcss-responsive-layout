@@ -283,6 +283,9 @@ section p{
 
 /* media 1024px */
 @media only screen and (min-width: 1024px)  {
+.fa-bars{
+    display: none;
+}
 .img-1{
         width: 100%;
         margin:0;
@@ -352,10 +355,15 @@ section p{
     margin-left:50px;
     margin-top:30px;
 }
+/* sezione 1 */
+
 
 }
 /* media 1440 */
 @media only screen and (min-width: 1440px)  {
+.fa-bars{
+    display: none;
+}
 .img-1{
     width: 60%;
     display: block;
