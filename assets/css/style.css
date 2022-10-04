@@ -190,6 +190,10 @@ section p{
     margin-bottom:20px;
     cursor: pointer;
 }
+
+.nav-2{
+    display: none;
+}
 /* media 374px */
 @media only screen and (min-width: 374px)  {
 .img-1{
@@ -277,6 +281,20 @@ section p{
     margin-left:40px;
     margin-top:30px;
 }
+.nav-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.nav-2 div{
+    color:white;
+    margin:20px;
+}
+.nav-2 button{
+    padding:10px 10px;
+    border-radius: 25px;
+    margin-top:-10px;
+}
 
 
 }
@@ -354,6 +372,20 @@ section p{
 .cc-card{
     margin-left:50px;
     margin-top:30px;
+}
+.nav-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.nav-2 div{
+    color:white;
+    margin:20px;
+}
+.nav-2 button{
+    padding:10px 10px;
+    border-radius: 25px;
+    margin-top:-10px;
 }
 /* sezione 1 */
 
