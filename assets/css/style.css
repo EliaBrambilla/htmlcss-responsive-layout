@@ -163,12 +163,23 @@ section{
     color:white;
     text-align: center;
 }
+.tit h2{
+    text-align: center;
+    color: white;
+}
 
 .col-right{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 40px;
     padding:20px;
     margin-top:20px;
+    text-align: center;
+}
+.fa-arrow-down-long{
+    background-color: #9792e4;
+    padding: 10px 12px;
+    border-radius: 25px;
+    margin-top:10px;
 }
 
 
