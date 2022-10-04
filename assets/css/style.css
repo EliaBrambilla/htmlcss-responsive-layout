@@ -265,6 +265,7 @@ section{
     border-radius: 25px;
     text-align: center;
     max-width: 100px;
+    cursor: pointer;
 }
 
 
