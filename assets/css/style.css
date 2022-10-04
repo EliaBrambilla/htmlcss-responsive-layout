@@ -229,6 +229,7 @@ section{
     text-align: center;
     color:white;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 
@@ -341,6 +342,28 @@ section{
 }
 .nav-2{
     display: none;
+}
+
+/* sezione 3*/
+/* inizio terza sezione */
+.ccc{
+    background-color: #9792e4;
+    border-radius: 25px;
+    display: flex;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+}
+.first-col{
+    flex-basis: 20%;
+}
+.second-col{
+    flex-basis:80%;
+    margin-top:8%;
+}
+.names{
+    text-align: center;
+    margin:auto;
 }
 
 
@@ -574,6 +597,27 @@ section{
     border-radius: 25px;
     margin-top:-10px;
     cursor: pointer;
+}
+/* sezione 3 */
+/* inizio terza sezione */
+.ccc{
+    background-color: #9792e4;
+    border-radius: 25px;
+    display: flex;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+}
+.first-col{
+    flex-basis: 20%;
+}
+.second-col{
+    flex-basis:80%;
+    margin-top:6%;
+}
+.names{
+    text-align: center;
+    margin:auto;
 }
 }
 /* fine media */
