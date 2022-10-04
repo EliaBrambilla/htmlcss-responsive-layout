@@ -180,6 +180,7 @@ section{
     padding: 10px 12px;
     border-radius: 25px;
     margin-top:10px;
+    cursor: pointer;
 }
 /* fine seconda sezione */
 /* inizio terza sezione */
@@ -230,6 +231,40 @@ section{
     color:white;
     font-weight: bold;
     padding-bottom: 10px;
+    padding-top:10px;
+}
+/* fine terza sezione */
+/* quarta sezione */
+.benefit{
+    background-color: #9792e4;
+    text-align: left;
+    padding:10px;
+    margin-top:40px;
+}
+.contenitore{
+    background-color: white;
+    padding:40px;
+    border-radius: 25px;
+    margin-top:10px;
+}
+.contenitore span{
+    color:#9792e4;
+    font-size: 1.7rem;
+}
+.contenitore h2{
+    color:#9792e4;
+    font-size: 1.8rem;
+}
+.contenitore p{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.btn-more{
+    background-color: #9792e4;
+    padding:5px 5px;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 100px;
 }
 
 
@@ -364,6 +399,14 @@ section{
 .names{
     text-align: center;
     margin:auto;
+}
+/* inizio 4 sezione */
+.benefit{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenitore{
+    flex-basis: calc(100% / 2);
 }
 
 
@@ -515,6 +558,14 @@ section{
 .names{
     text-align: center;
     margin:auto;
+}
+/* sezione 4 */
+.benefit{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenitore{
+    flex-basis: calc(100% / 3);
 }
 
 }
